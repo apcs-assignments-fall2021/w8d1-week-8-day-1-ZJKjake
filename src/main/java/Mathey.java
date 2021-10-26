@@ -1,12 +1,5 @@
 public class Mathey {
-    public static int max(int a,int b) {
-        if (a>b){
-            return a;
-        }
-        else{
-            return b;
-        }
-    }
+
     /* Write your own version of the Math.max method
      * Your method should be called max
      * This method should take **two integers** and return the larger integer
@@ -16,6 +9,15 @@ public class Mathey {
      * public static ...
      */
     // YOUR CODE HERE, METHOD HEADER ALSO REQUIRED
+    public static int max(int a,int b) {
+        if (a>b){
+            return a;
+        }
+        else{
+            return b;
+        }
+    }
+
 
 
 
